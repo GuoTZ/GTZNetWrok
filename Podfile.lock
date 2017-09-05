@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.4.0)
+  - DGElasticPullToRefresh (1.1)
+  - KVOController (1.2.0)
+  - RAMAnimatedTabBarController (2.0.13)
+  - ReactiveCocoa (5.0.3):
+    - ReactiveSwift (~> 1.1)
+  - ReactiveSwift (1.1.1):
+    - Result (~> 3.2)
+  - Result (3.2.1)
+  - SnapKit (3.2.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Alamofire
+  - DGElasticPullToRefresh
+  - KVOController
+  - RAMAnimatedTabBarController (~> 2.0.13)
+  - ReactiveCocoa
+  - SnapKit
+  - YYKit
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  RAMAnimatedTabBarController: 2510f3b66954c3f77ea1042a35d34df8f5f3b604
+  ReactiveCocoa: 066a855f613fb72f68258771095805fdb10312d2
+  ReactiveSwift: 2489549e3231a6ff68ec99f3d320bb264f10ba0a
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: dd0dcc7495bfa7311cef78642ccd89892e75830f
+
+COCOAPODS: 1.1.1

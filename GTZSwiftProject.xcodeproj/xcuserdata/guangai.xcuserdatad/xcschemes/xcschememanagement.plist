@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>GTZNetWrok.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>GTZSwiftProject.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>60490F541EE7DB8F00EDD275</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60490F681EE7DB8F00EDD275</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60490F731EE7DB8F00EDD275</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60B347D01EFB91DC000735D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

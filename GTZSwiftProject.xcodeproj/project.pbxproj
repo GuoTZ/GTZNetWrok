@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D2F115384EC433906981F79 /* Pods_GTZSwiftProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD5D787482468C84DD55C65 /* Pods_GTZSwiftProjectUITests.framework */; };
+		602A32471EF8B50900AF7769 /* GTZProgressLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602A32461EF8B50900AF7769 /* GTZProgressLoading.swift */; };
+		602A32491EF8B93500AF7769 /* GTZProgressMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602A32481EF8B93500AF7769 /* GTZProgressMsg.swift */; };
+		60342D6F1EF4D82B00F9886E /* GTZNetWorkCacheRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60342D6E1EF4D82B00F9886E /* GTZNetWorkCacheRequest.swift */; };
+		6036B5661EF529B100A33CEA /* DeliveryListConditionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6036B5651EF529B100A33CEA /* DeliveryListConditionModel.swift */; };
+		60410DE21EEABC3E0040DCC6 /* GTZWriteFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60410DE11EEABC3D0040DCC6 /* GTZWriteFile.swift */; };
+		6047B0801EF7A9A0001663F5 /* GTZProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6047B07F1EF7A9A0001663F5 /* GTZProgressHUD.swift */; };
+		60480E861EEA9C14004E8ED2 /* GTZSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60480E851EEA9C14004E8ED2 /* GTZSignInViewController.swift */; };
+		60480E881EEA9C34004E8ED2 /* GTZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60480E871EEA9C34004E8ED2 /* GTZBaseViewController.swift */; };
+		60480E8A1EEAA6EE004E8ED2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60480E891EEAA6EE004E8ED2 /* SystemConfiguration.framework */; };
+		60480E8C1EEAA7B8004E8ED2 /* GTZTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60480E8B1EEAA7B7004E8ED2 /* GTZTool.swift */; };
+		60490F591EE7DB8F00EDD275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60490F581EE7DB8F00EDD275 /* AppDelegate.swift */; };
+		60490F5B1EE7DB8F00EDD275 /* GTZMianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60490F5A1EE7DB8F00EDD275 /* GTZMianViewController.swift */; };
+		60490F601EE7DB8F00EDD275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60490F5F1EE7DB8F00EDD275 /* Assets.xcassets */; };
+		60490F631EE7DB8F00EDD275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60490F611EE7DB8F00EDD275 /* LaunchScreen.storyboard */; };
+		60490F6E1EE7DB8F00EDD275 /* GTZSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60490F6D1EE7DB8F00EDD275 /* GTZSwiftProjectTests.swift */; };
+		60490F791EE7DB8F00EDD275 /* GTZSwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60490F781EE7DB8F00EDD275 /* GTZSwiftProjectUITests.swift */; };
+		60490F871EE7DC9F00EDD275 /* GTZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60490F861EE7DC9F00EDD275 /* GTZNavigationController.swift */; };
+		604F69291EF7ACA400C38E8E /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F69281EF7ACA400C38E8E /* UILabelExtension.swift */; };
+		605350F81EE80B8700854CA6 /* GTZKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605350F71EE80B8700854CA6 /* GTZKit.swift */; };
+		605AF0D71EF3BCF0002383DC /* GTZNetworkCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AF0D61EF3BCEF002383DC /* GTZNetworkCache.swift */; };
+		609A73D91EEE530800C3BBBF /* ConstantMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A73D81EEE530800C3BBBF /* ConstantMacro.swift */; };
+		609CE4B41EEAB4130081FCFA /* WIFIObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CE4B31EEAB4130081FCFA /* WIFIObject.swift */; };
+		609D1DCC1EF3FCC5008FE8D9 /* GTZNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D1DCB1EF3FCC5008FE8D9 /* GTZNetworkConfig.swift */; };
+		609D1DCE1EF3FEE4008FE8D9 /* GTZNetWorkBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D1DCD1EF3FEE4008FE8D9 /* GTZNetWorkBaseRequest.swift */; };
+		609D1DD11EF4C9A4008FE8D9 /* GTZNetWorkGetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D1DD01EF4C9A4008FE8D9 /* GTZNetWorkGetRequest.swift */; };
+		609D1DD31EF4CBB8008FE8D9 /* GTZNetWorkPostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D1DD21EF4CBB8008FE8D9 /* GTZNetWorkPostRequest.swift */; };
+		60B347D51EFB91DC000735D4 /* GTZNetWrok.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B347D41EFB91DC000735D4 /* GTZNetWrok.m */; };
+		60B347D61EFB91DC000735D4 /* GTZNetWrok.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 60B347D31EFB91DC000735D4 /* GTZNetWrok.h */; };
+		60DC5F3B1EF762A400AAC565 /* GTZLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DC5F3A1EF762A400AAC565 /* GTZLoadView.swift */; };
+		60DE14E51EEE55B10045437D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DE14E41EEE55B10045437D /* UIViewExtension.swift */; };
+		60E7F89C1EEE8BE90018B84B /* GTZSignInViweModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E7F89B1EEE8BE90018B84B /* GTZSignInViweModel.swift */; };
+		60E7F89F1EEE8C100018B84B /* GTZSignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E7F89E1EEE8C100018B84B /* GTZSignInModel.swift */; };
+		60E7F8A41EEFC9750018B84B /* GTZSignInViweCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E7F8A21EEFC9750018B84B /* GTZSignInViweCell.swift */; };
+		60E7F8A51EEFC9750018B84B /* GTZSignInViweCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E7F8A31EEFC9750018B84B /* GTZSignInViweCell.xib */; };
+		60F5AE381EEE584C007F66A5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5AE371EEE584C007F66A5 /* UIColorExtension.swift */; };
+		60F5AE3A1EEE592C007F66A5 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5AE391EEE592C007F66A5 /* UIButtonExtension.swift */; };
+		60F5AE451EEE7D2E007F66A5 /* GTZMainTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5AE441EEE7D2E007F66A5 /* GTZMainTabelViewController.swift */; };
+		60F5AE471EEE7D71007F66A5 /* GTZMainTabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5AE461EEE7D71007F66A5 /* GTZMainTabelView.swift */; };
+		60F5AE491EEE7D7C007F66A5 /* GTZMainTabelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F5AE481EEE7D7C007F66A5 /* GTZMainTabelViewModel.swift */; };
+		64ED7352065A813B83300611 /* Pods_GTZSwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417C03E0289429779DEE44F3 /* Pods_GTZSwiftProject.framework */; };
+		D7A9ABA73E5CA64EA1942CA8 /* Pods_GTZSwiftProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D137150C1C9C1D262EFEEFC4 /* Pods_GTZSwiftProjectTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60490F6A1EE7DB8F00EDD275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60490F4D1EE7DB8F00EDD275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60490F541EE7DB8F00EDD275;
+			remoteInfo = GTZSwiftProject;
+		};
+		60490F751EE7DB8F00EDD275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60490F4D1EE7DB8F00EDD275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60490F541EE7DB8F00EDD275;
+			remoteInfo = GTZSwiftProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60B347CF1EFB91DC000735D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				60B347D61EFB91DC000735D4 /* GTZNetWrok.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		417C03E0289429779DEE44F3 /* Pods_GTZSwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTZSwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		583AAF70D243E7E7AF0A1D0B /* Pods-GTZSwiftProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTZSwiftProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTZSwiftProjectUITests/Pods-GTZSwiftProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		602A32461EF8B50900AF7769 /* GTZProgressLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZProgressLoading.swift; sourceTree = "<group>"; };
+		602A32481EF8B93500AF7769 /* GTZProgressMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZProgressMsg.swift; sourceTree = "<group>"; };
+		60342D6E1EF4D82B00F9886E /* GTZNetWorkCacheRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTZNetWorkCacheRequest.swift; path = ../GTZSwiftProject/GTZNetWorkCacheRequest.swift; sourceTree = "<group>"; };
+		6036B5651EF529B100A33CEA /* DeliveryListConditionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryListConditionModel.swift; sourceTree = "<group>"; };
+		60410DE11EEABC3D0040DCC6 /* GTZWriteFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZWriteFile.swift; sourceTree = "<group>"; };
+		6047B07F1EF7A9A0001663F5 /* GTZProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZProgressHUD.swift; sourceTree = "<group>"; };
+		60480E851EEA9C14004E8ED2 /* GTZSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZSignInViewController.swift; sourceTree = "<group>"; };
+		60480E871EEA9C34004E8ED2 /* GTZBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZBaseViewController.swift; sourceTree = "<group>"; };
+		60480E891EEAA6EE004E8ED2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		60480E8B1EEAA7B7004E8ED2 /* GTZTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZTool.swift; sourceTree = "<group>"; };
+		60490F551EE7DB8F00EDD275 /* GTZSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTZSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60490F581EE7DB8F00EDD275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60490F5A1EE7DB8F00EDD275 /* GTZMianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTZMianViewController.swift; sourceTree = "<group>"; };
+		60490F5F1EE7DB8F00EDD275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60490F621EE7DB8F00EDD275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60490F641EE7DB8F00EDD275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60490F691EE7DB8F00EDD275 /* GTZSwiftProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTZSwiftProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60490F6D1EE7DB8F00EDD275 /* GTZSwiftProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTZSwiftProjectTests.swift; sourceTree = "<group>"; };
+		60490F6F1EE7DB8F00EDD275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60490F741EE7DB8F00EDD275 /* GTZSwiftProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTZSwiftProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60490F781EE7DB8F00EDD275 /* GTZSwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTZSwiftProjectUITests.swift; sourceTree = "<group>"; };
+		60490F7A1EE7DB8F00EDD275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60490F861EE7DC9F00EDD275 /* GTZNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZNavigationController.swift; sourceTree = "<group>"; };
+		604F69281EF7ACA400C38E8E /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		605350F71EE80B8700854CA6 /* GTZKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZKit.swift; sourceTree = "<group>"; };
+		605351021EE8E9B100854CA6 /* GTZSwiftProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTZSwiftProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		605351061EE8EA8600854CA6 /* JKCategories.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JKCategories.framework; path = "../../Library/Developer/Xcode/DerivedData/GTZSwiftProject-disiahjtaeapnsgxidmyunjpplyw/Build/Products/Debug-iphoneos/JKCategories/JKCategories.framework"; sourceTree = "<group>"; };
+		605AF0D61EF3BCEF002383DC /* GTZNetworkCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTZNetworkCache.swift; path = ../GTZSwiftProject/GTZNetworkCache.swift; sourceTree = "<group>"; };
+		609A73D81EEE530800C3BBBF /* ConstantMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantMacro.swift; sourceTree = "<group>"; };
+		609CE4B31EEAB4130081FCFA /* WIFIObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIFIObject.swift; sourceTree = "<group>"; };
+		609D1DCB1EF3FCC5008FE8D9 /* GTZNetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTZNetworkConfig.swift; path = ../GTZSwiftProject/GTZNetworkConfig.swift; sourceTree = "<group>"; };
+		609D1DCD1EF3FEE4008FE8D9 /* GTZNetWorkBaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTZNetWorkBaseRequest.swift; path = ../GTZSwiftProject/GTZNetWorkBaseRequest.swift; sourceTree = "<group>"; };
+		609D1DD01EF4C9A4008FE8D9 /* GTZNetWorkGetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTZNetWorkGetRequest.swift; path = ../GTZSwiftProject/GTZNetWorkGetRequest.swift; sourceTree = "<group>"; };
+		609D1DD21EF4CBB8008FE8D9 /* GTZNetWorkPostRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GTZNetWorkPostRequest.swift; path = ../GTZSwiftProject/GTZNetWorkPostRequest.swift; sourceTree = "<group>"; };
+		60B347D11EFB91DC000735D4 /* libGTZNetWrok.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGTZNetWrok.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B347D31EFB91DC000735D4 /* GTZNetWrok.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTZNetWrok.h; sourceTree = "<group>"; };
+		60B347D41EFB91DC000735D4 /* GTZNetWrok.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTZNetWrok.m; sourceTree = "<group>"; };
+		60C60A8D1EEA7DBA008B8E34 /* YYKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYKit.framework; path = "../../Library/Developer/Xcode/DerivedData/GTZSwiftProject-disiahjtaeapnsgxidmyunjpplyw/Build/Products/Debug-iphoneos/YYKit/YYKit.framework"; sourceTree = "<group>"; };
+		60C60A8F1EEA97D0008B8E34 /* Pods_GTZSwiftProjectTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_GTZSwiftProjectTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_GTZSwiftProjectTests.framework"; sourceTree = "<group>"; };
+		60C60A901EEA97D0008B8E34 /* Pods_GTZSwiftProjectUITests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_GTZSwiftProjectUITests.framework; path = "Pods/../build/Debug-iphoneos/Pods_GTZSwiftProjectUITests.framework"; sourceTree = "<group>"; };
+		60DC5F3A1EF762A400AAC565 /* GTZLoadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZLoadView.swift; sourceTree = "<group>"; };
+		60DE14E41EEE55B10045437D /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		60E7F89B1EEE8BE90018B84B /* GTZSignInViweModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZSignInViweModel.swift; sourceTree = "<group>"; };
+		60E7F89E1EEE8C100018B84B /* GTZSignInModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZSignInModel.swift; sourceTree = "<group>"; };
+		60E7F8A21EEFC9750018B84B /* GTZSignInViweCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZSignInViweCell.swift; sourceTree = "<group>"; };
+		60E7F8A31EEFC9750018B84B /* GTZSignInViweCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTZSignInViweCell.xib; sourceTree = "<group>"; };
+		60F5AE371EEE584C007F66A5 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		60F5AE391EEE592C007F66A5 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		60F5AE441EEE7D2E007F66A5 /* GTZMainTabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZMainTabelViewController.swift; sourceTree = "<group>"; };
+		60F5AE461EEE7D71007F66A5 /* GTZMainTabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZMainTabelView.swift; sourceTree = "<group>"; };
+		60F5AE481EEE7D7C007F66A5 /* GTZMainTabelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTZMainTabelViewModel.swift; sourceTree = "<group>"; };
+		7DD5D787482468C84DD55C65 /* Pods_GTZSwiftProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTZSwiftProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		821F71CB37207CAE0A3C76A7 /* Pods-GTZSwiftProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTZSwiftProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTZSwiftProjectTests/Pods-GTZSwiftProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		958336AB55371C84B3C6ADBA /* Pods-GTZSwiftProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTZSwiftProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTZSwiftProjectTests/Pods-GTZSwiftProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA325616E338DABADE1D1204 /* Pods-GTZSwiftProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTZSwiftProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTZSwiftProjectUITests/Pods-GTZSwiftProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6E6AD5E008BDC2BD874A9AE /* Pods-GTZSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTZSwiftProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTZSwiftProject/Pods-GTZSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
+		D137150C1C9C1D262EFEEFC4 /* Pods_GTZSwiftProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTZSwiftProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24B5F758481F1D218A7CCE8 /* Pods-GTZSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTZSwiftProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTZSwiftProject/Pods-GTZSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60490F521EE7DB8F00EDD275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60480E8A1EEAA6EE004E8ED2 /* SystemConfiguration.framework in Frameworks */,
+				64ED7352065A813B83300611 /* Pods_GTZSwiftProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60490F661EE7DB8F00EDD275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A9ABA73E5CA64EA1942CA8 /* Pods_GTZSwiftProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60490F711EE7DB8F00EDD275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2F115384EC433906981F79 /* Pods_GTZSwiftProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B347CE1EFB91DC000735D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100B88C237415F96F22BA739 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6E6AD5E008BDC2BD874A9AE /* Pods-GTZSwiftProject.debug.xcconfig */,
+				F24B5F758481F1D218A7CCE8 /* Pods-GTZSwiftProject.release.xcconfig */,
+				958336AB55371C84B3C6ADBA /* Pods-GTZSwiftProjectTests.debug.xcconfig */,
+				821F71CB37207CAE0A3C76A7 /* Pods-GTZSwiftProjectTests.release.xcconfig */,
+				AA325616E338DABADE1D1204 /* Pods-GTZSwiftProjectUITests.debug.xcconfig */,
+				583AAF70D243E7E7AF0A1D0B /* Pods-GTZSwiftProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60490F4C1EE7DB8F00EDD275 = {
+			isa = PBXGroup;
+			children = (
+				60490F571EE7DB8F00EDD275 /* GTZSwiftProject */,
+				60490F6C1EE7DB8F00EDD275 /* GTZSwiftProjectTests */,
+				60490F771EE7DB8F00EDD275 /* GTZSwiftProjectUITests */,
+				60B347D21EFB91DC000735D4 /* GTZNetWrok */,
+				60490F561EE7DB8F00EDD275 /* Products */,
+				100B88C237415F96F22BA739 /* Pods */,
+				FFFF7C7DFF3615D32B323142 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60490F561EE7DB8F00EDD275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60490F551EE7DB8F00EDD275 /* GTZSwiftProject.app */,
+				60490F691EE7DB8F00EDD275 /* GTZSwiftProjectTests.xctest */,
+				60490F741EE7DB8F00EDD275 /* GTZSwiftProjectUITests.xctest */,
+				60B347D11EFB91DC000735D4 /* libGTZNetWrok.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60490F571EE7DB8F00EDD275 /* GTZSwiftProject */ = {
+			isa = PBXGroup;
+			children = (
+				60E7F89D1EEE8BEF0018B84B /* SignIn */,
+				60F5AE401EEE7CCB007F66A5 /* Public */,
+				60F5AE3C1EEE6E06007F66A5 /* main */,
+				60F5AE3B1EEE6D13007F66A5 /* configSystem */,
+				60F5AE361EEE56D5007F66A5 /* extension */,
+				60DC5F381EF7620F00AAC565 /* network */,
+				60DC5F391EF7626C00AAC565 /* loadView */,
+				60490F861EE7DC9F00EDD275 /* GTZNavigationController.swift */,
+				60490F581EE7DB8F00EDD275 /* AppDelegate.swift */,
+				605350F71EE80B8700854CA6 /* GTZKit.swift */,
+				60480E8B1EEAA7B7004E8ED2 /* GTZTool.swift */,
+				609CE4B31EEAB4130081FCFA /* WIFIObject.swift */,
+				60410DE11EEABC3D0040DCC6 /* GTZWriteFile.swift */,
+				609A73D81EEE530800C3BBBF /* ConstantMacro.swift */,
+				605351021EE8E9B100854CA6 /* GTZSwiftProject-Bridging-Header.h */,
+			);
+			path = GTZSwiftProject;
+			sourceTree = "<group>";
+		};
+		60490F6C1EE7DB8F00EDD275 /* GTZSwiftProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				60490F6D1EE7DB8F00EDD275 /* GTZSwiftProjectTests.swift */,
+				60490F6F1EE7DB8F00EDD275 /* Info.plist */,
+			);
+			path = GTZSwiftProjectTests;
+			sourceTree = "<group>";
+		};
+		60490F771EE7DB8F00EDD275 /* GTZSwiftProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60490F781EE7DB8F00EDD275 /* GTZSwiftProjectUITests.swift */,
+				60490F7A1EE7DB8F00EDD275 /* Info.plist */,
+			);
+			path = GTZSwiftProjectUITests;
+			sourceTree = "<group>";
+		};
+		60B347D21EFB91DC000735D4 /* GTZNetWrok */ = {
+			isa = PBXGroup;
+			children = (
+				605AF0D61EF3BCEF002383DC /* GTZNetworkCache.swift */,
+				609D1DCB1EF3FCC5008FE8D9 /* GTZNetworkConfig.swift */,
+				609D1DCD1EF3FEE4008FE8D9 /* GTZNetWorkBaseRequest.swift */,
+				609D1DD01EF4C9A4008FE8D9 /* GTZNetWorkGetRequest.swift */,
+				609D1DD21EF4CBB8008FE8D9 /* GTZNetWorkPostRequest.swift */,
+				60342D6E1EF4D82B00F9886E /* GTZNetWorkCacheRequest.swift */,
+				60B347D31EFB91DC000735D4 /* GTZNetWrok.h */,
+				60B347D41EFB91DC000735D4 /* GTZNetWrok.m */,
+			);
+			path = GTZNetWrok;
+			sourceTree = "<group>";
+		};
+		60DC5F381EF7620F00AAC565 /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = network;
+			sourceTree = "<group>";
+		};
+		60DC5F391EF7626C00AAC565 /* loadView */ = {
+			isa = PBXGroup;
+			children = (
+				60DC5F3A1EF762A400AAC565 /* GTZLoadView.swift */,
+				6047B07F1EF7A9A0001663F5 /* GTZProgressHUD.swift */,
+				602A32461EF8B50900AF7769 /* GTZProgressLoading.swift */,
+				602A32481EF8B93500AF7769 /* GTZProgressMsg.swift */,
+			);
+			name = loadView;
+			sourceTree = "<group>";
+		};
+		60E7F89D1EEE8BEF0018B84B /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				60480E851EEA9C14004E8ED2 /* GTZSignInViewController.swift */,
+				60E7F89B1EEE8BE90018B84B /* GTZSignInViweModel.swift */,
+				60E7F89E1EEE8C100018B84B /* GTZSignInModel.swift */,
+				60E7F8A21EEFC9750018B84B /* GTZSignInViweCell.swift */,
+				60E7F8A31EEFC9750018B84B /* GTZSignInViweCell.xib */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		60F5AE361EEE56D5007F66A5 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				60DE14E41EEE55B10045437D /* UIViewExtension.swift */,
+				60F5AE371EEE584C007F66A5 /* UIColorExtension.swift */,
+				60F5AE391EEE592C007F66A5 /* UIButtonExtension.swift */,
+				604F69281EF7ACA400C38E8E /* UILabelExtension.swift */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		60F5AE3B1EEE6D13007F66A5 /* configSystem */ = {
+			isa = PBXGroup;
+			children = (
+				60490F5F1EE7DB8F00EDD275 /* Assets.xcassets */,
+				60490F611EE7DB8F00EDD275 /* LaunchScreen.storyboard */,
+				60490F641EE7DB8F00EDD275 /* Info.plist */,
+			);
+			name = configSystem;
+			sourceTree = "<group>";
+		};
+		60F5AE3C1EEE6E06007F66A5 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				60490F5A1EE7DB8F00EDD275 /* GTZMianViewController.swift */,
+				6036B5651EF529B100A33CEA /* DeliveryListConditionModel.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		60F5AE401EEE7CCB007F66A5 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				60480E871EEA9C34004E8ED2 /* GTZBaseViewController.swift */,
+				60F5AE441EEE7D2E007F66A5 /* GTZMainTabelViewController.swift */,
+				60F5AE461EEE7D71007F66A5 /* GTZMainTabelView.swift */,
+				60F5AE481EEE7D7C007F66A5 /* GTZMainTabelViewModel.swift */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		FFFF7C7DFF3615D32B323142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60480E891EEAA6EE004E8ED2 /* SystemConfiguration.framework */,
+				60C60A8F1EEA97D0008B8E34 /* Pods_GTZSwiftProjectTests.framework */,
+				60C60A901EEA97D0008B8E34 /* Pods_GTZSwiftProjectUITests.framework */,
+				60C60A8D1EEA7DBA008B8E34 /* YYKit.framework */,
+				605351061EE8EA8600854CA6 /* JKCategories.framework */,
+				417C03E0289429779DEE44F3 /* Pods_GTZSwiftProject.framework */,
+				D137150C1C9C1D262EFEEFC4 /* Pods_GTZSwiftProjectTests.framework */,
+				7DD5D787482468C84DD55C65 /* Pods_GTZSwiftProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60490F541EE7DB8F00EDD275 /* GTZSwiftProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60490F7D1EE7DB8F00EDD275 /* Build configuration list for PBXNativeTarget "GTZSwiftProject" */;
+			buildPhases = (
+				9F728AC6C9C3FE77B4CA85C2 /* [CP] Check Pods Manifest.lock */,
+				60490F511EE7DB8F00EDD275 /* Sources */,
+				60490F521EE7DB8F00EDD275 /* Frameworks */,
+				60490F531EE7DB8F00EDD275 /* Resources */,
+				B16E2C0918BEFB37B384E192 /* [CP] Embed Pods Frameworks */,
+				636025A1BC250F348D2864D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTZSwiftProject;
+			productName = GTZSwiftProject;
+			productReference = 60490F551EE7DB8F00EDD275 /* GTZSwiftProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60490F681EE7DB8F00EDD275 /* GTZSwiftProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60490F801EE7DB8F00EDD275 /* Build configuration list for PBXNativeTarget "GTZSwiftProjectTests" */;
+			buildPhases = (
+				7248855F7D01A18EED80D434 /* [CP] Check Pods Manifest.lock */,
+				60490F651EE7DB8F00EDD275 /* Sources */,
+				60490F661EE7DB8F00EDD275 /* Frameworks */,
+				60490F671EE7DB8F00EDD275 /* Resources */,
+				3B7A6E40C0F92DA56C7ED842 /* [CP] Embed Pods Frameworks */,
+				13AD3BF9B35947D72309CC3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60490F6B1EE7DB8F00EDD275 /* PBXTargetDependency */,
+			);
+			name = GTZSwiftProjectTests;
+			productName = GTZSwiftProjectTests;
+			productReference = 60490F691EE7DB8F00EDD275 /* GTZSwiftProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60490F731EE7DB8F00EDD275 /* GTZSwiftProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60490F831EE7DB8F00EDD275 /* Build configuration list for PBXNativeTarget "GTZSwiftProjectUITests" */;
+			buildPhases = (
+				83F753E0EE867D08BCAB4BA5 /* [CP] Check Pods Manifest.lock */,
+				60490F701EE7DB8F00EDD275 /* Sources */,
+				60490F711EE7DB8F00EDD275 /* Frameworks */,
+				60490F721EE7DB8F00EDD275 /* Resources */,
+				624245AE1087E842C0B17F6F /* [CP] Embed Pods Frameworks */,
+				B2B7154099A4D3278EF0EE64 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60490F761EE7DB8F00EDD275 /* PBXTargetDependency */,
+			);
+			name = GTZSwiftProjectUITests;
+			productName = GTZSwiftProjectUITests;
+			productReference = 60490F741EE7DB8F00EDD275 /* GTZSwiftProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		60B347D01EFB91DC000735D4 /* GTZNetWrok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B347D91EFB91DC000735D4 /* Build configuration list for PBXNativeTarget "GTZNetWrok" */;
+			buildPhases = (
+				60B347CD1EFB91DC000735D4 /* Sources */,
+				60B347CE1EFB91DC000735D4 /* Frameworks */,
+				60B347CF1EFB91DC000735D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTZNetWrok;
+			productName = GTZNetWrok;
+			productReference = 60B347D11EFB91DC000735D4 /* libGTZNetWrok.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60490F4D1EE7DB8F00EDD275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = GTZ;
+				TargetAttributes = {
+					60490F541EE7DB8F00EDD275 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PCYC42KXBP;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					60490F681EE7DB8F00EDD275 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60490F541EE7DB8F00EDD275;
+					};
+					60490F731EE7DB8F00EDD275 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60490F541EE7DB8F00EDD275;
+					};
+					60B347D01EFB91DC000735D4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 60490F501EE7DB8F00EDD275 /* Build configuration list for PBXProject "GTZSwiftProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60490F4C1EE7DB8F00EDD275;
+			productRefGroup = 60490F561EE7DB8F00EDD275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60490F541EE7DB8F00EDD275 /* GTZSwiftProject */,
+				60490F681EE7DB8F00EDD275 /* GTZSwiftProjectTests */,
+				60490F731EE7DB8F00EDD275 /* GTZSwiftProjectUITests */,
+				60B347D01EFB91DC000735D4 /* GTZNetWrok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60490F531EE7DB8F00EDD275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E7F8A51EEFC9750018B84B /* GTZSignInViweCell.xib in Resources */,
+				60490F631EE7DB8F00EDD275 /* LaunchScreen.storyboard in Resources */,
+				60490F601EE7DB8F00EDD275 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60490F671EE7DB8F00EDD275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60490F721EE7DB8F00EDD275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13AD3BF9B35947D72309CC3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTZSwiftProjectTests/Pods-GTZSwiftProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B7A6E40C0F92DA56C7ED842 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTZSwiftProjectTests/Pods-GTZSwiftProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		624245AE1087E842C0B17F6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTZSwiftProjectUITests/Pods-GTZSwiftProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		636025A1BC250F348D2864D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTZSwiftProject/Pods-GTZSwiftProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7248855F7D01A18EED80D434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83F753E0EE867D08BCAB4BA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F728AC6C9C3FE77B4CA85C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B16E2C0918BEFB37B384E192 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTZSwiftProject/Pods-GTZSwiftProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B7154099A4D3278EF0EE64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTZSwiftProjectUITests/Pods-GTZSwiftProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60490F511EE7DB8F00EDD275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602A32491EF8B93500AF7769 /* GTZProgressMsg.swift in Sources */,
+				605350F81EE80B8700854CA6 /* GTZKit.swift in Sources */,
+				609CE4B41EEAB4130081FCFA /* WIFIObject.swift in Sources */,
+				60DE14E51EEE55B10045437D /* UIViewExtension.swift in Sources */,
+				609D1DD31EF4CBB8008FE8D9 /* GTZNetWorkPostRequest.swift in Sources */,
+				60480E881EEA9C34004E8ED2 /* GTZBaseViewController.swift in Sources */,
+				60F5AE491EEE7D7C007F66A5 /* GTZMainTabelViewModel.swift in Sources */,
+				60E7F89C1EEE8BE90018B84B /* GTZSignInViweModel.swift in Sources */,
+				60490F871EE7DC9F00EDD275 /* GTZNavigationController.swift in Sources */,
+				6036B5661EF529B100A33CEA /* DeliveryListConditionModel.swift in Sources */,
+				609D1DCC1EF3FCC5008FE8D9 /* GTZNetworkConfig.swift in Sources */,
+				60E7F89F1EEE8C100018B84B /* GTZSignInModel.swift in Sources */,
+				60342D6F1EF4D82B00F9886E /* GTZNetWorkCacheRequest.swift in Sources */,
+				60480E8C1EEAA7B8004E8ED2 /* GTZTool.swift in Sources */,
+				605AF0D71EF3BCF0002383DC /* GTZNetworkCache.swift in Sources */,
+				6047B0801EF7A9A0001663F5 /* GTZProgressHUD.swift in Sources */,
+				60E7F8A41EEFC9750018B84B /* GTZSignInViweCell.swift in Sources */,
+				604F69291EF7ACA400C38E8E /* UILabelExtension.swift in Sources */,
+				60490F5B1EE7DB8F00EDD275 /* GTZMianViewController.swift in Sources */,
+				60480E861EEA9C14004E8ED2 /* GTZSignInViewController.swift in Sources */,
+				60F5AE3A1EEE592C007F66A5 /* UIButtonExtension.swift in Sources */,
+				60410DE21EEABC3E0040DCC6 /* GTZWriteFile.swift in Sources */,
+				609A73D91EEE530800C3BBBF /* ConstantMacro.swift in Sources */,
+				60F5AE471EEE7D71007F66A5 /* GTZMainTabelView.swift in Sources */,
+				60490F591EE7DB8F00EDD275 /* AppDelegate.swift in Sources */,
+				60F5AE451EEE7D2E007F66A5 /* GTZMainTabelViewController.swift in Sources */,
+				609D1DD11EF4C9A4008FE8D9 /* GTZNetWorkGetRequest.swift in Sources */,
+				60F5AE381EEE584C007F66A5 /* UIColorExtension.swift in Sources */,
+				602A32471EF8B50900AF7769 /* GTZProgressLoading.swift in Sources */,
+				609D1DCE1EF3FEE4008FE8D9 /* GTZNetWorkBaseRequest.swift in Sources */,
+				60DC5F3B1EF762A400AAC565 /* GTZLoadView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60490F651EE7DB8F00EDD275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60490F6E1EE7DB8F00EDD275 /* GTZSwiftProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60490F701EE7DB8F00EDD275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60490F791EE7DB8F00EDD275 /* GTZSwiftProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B347CD1EFB91DC000735D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B347D51EFB91DC000735D4 /* GTZNetWrok.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60490F6B1EE7DB8F00EDD275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60490F541EE7DB8F00EDD275 /* GTZSwiftProject */;
+			targetProxy = 60490F6A1EE7DB8F00EDD275 /* PBXContainerItemProxy */;
+		};
+		60490F761EE7DB8F00EDD275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60490F541EE7DB8F00EDD275 /* GTZSwiftProject */;
+			targetProxy = 60490F751EE7DB8F00EDD275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60490F611EE7DB8F00EDD275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60490F621EE7DB8F00EDD275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60490F7B1EE7DB8F00EDD275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60490F7C1EE7DB8F00EDD275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60490F7E1EE7DB8F00EDD275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E6AD5E008BDC2BD874A9AE /* Pods-GTZSwiftProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PCYC42KXBP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = GTZSwiftProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GTZ.GTZSwiftProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GTZSwiftProject/GTZSwiftProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		60490F7F1EE7DB8F00EDD275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24B5F758481F1D218A7CCE8 /* Pods-GTZSwiftProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PCYC42KXBP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = GTZSwiftProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GTZ.GTZSwiftProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GTZSwiftProject/GTZSwiftProject-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		60490F811EE7DB8F00EDD275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958336AB55371C84B3C6ADBA /* Pods-GTZSwiftProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GTZSwiftProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GTZ.GTZSwiftProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTZSwiftProject.app/GTZSwiftProject";
+			};
+			name = Debug;
+		};
+		60490F821EE7DB8F00EDD275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821F71CB37207CAE0A3C76A7 /* Pods-GTZSwiftProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GTZSwiftProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GTZ.GTZSwiftProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTZSwiftProject.app/GTZSwiftProject";
+			};
+			name = Release;
+		};
+		60490F841EE7DB8F00EDD275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA325616E338DABADE1D1204 /* Pods-GTZSwiftProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GTZSwiftProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GTZ.GTZSwiftProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GTZSwiftProject;
+			};
+			name = Debug;
+		};
+		60490F851EE7DB8F00EDD275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583AAF70D243E7E7AF0A1D0B /* Pods-GTZSwiftProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GTZSwiftProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GTZ.GTZSwiftProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GTZSwiftProject;
+			};
+			name = Release;
+		};
+		60B347D71EFB91DC000735D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60B347D81EFB91DC000735D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60490F501EE7DB8F00EDD275 /* Build configuration list for PBXProject "GTZSwiftProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60490F7B1EE7DB8F00EDD275 /* Debug */,
+				60490F7C1EE7DB8F00EDD275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60490F7D1EE7DB8F00EDD275 /* Build configuration list for PBXNativeTarget "GTZSwiftProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60490F7E1EE7DB8F00EDD275 /* Debug */,
+				60490F7F1EE7DB8F00EDD275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60490F801EE7DB8F00EDD275 /* Build configuration list for PBXNativeTarget "GTZSwiftProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60490F811EE7DB8F00EDD275 /* Debug */,
+				60490F821EE7DB8F00EDD275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60490F831EE7DB8F00EDD275 /* Build configuration list for PBXNativeTarget "GTZSwiftProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60490F841EE7DB8F00EDD275 /* Debug */,
+				60490F851EE7DB8F00EDD275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B347D91EFB91DC000735D4 /* Build configuration list for PBXNativeTarget "GTZNetWrok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B347D71EFB91DC000735D4 /* Debug */,
+				60B347D81EFB91DC000735D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60490F4D1EE7DB8F00EDD275 /* Project object */;
+}

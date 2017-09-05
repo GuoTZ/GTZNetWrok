@@ -1,0 +1,6 @@
+framework module Pods_GTZSwiftProjectUITests {
+  umbrella header "Pods-GTZSwiftProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
